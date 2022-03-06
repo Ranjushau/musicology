@@ -1,0 +1,419 @@
+.navigationbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(46, 44, 44);
+    height: 70px;
+}
+.logo{
+    margin-left: 7px;
+}
+.search{
+    margin-right: 7px;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 19px;
+}
+.menu ul li .active{
+    color: greenyellow;
+}
+.menu ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: greenyellow;
+    /* color: goldenrod; */
+}
+
+
+/* section one start hare */
+.section-one{
+    background-image: url('img/3.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+}
+.herocontent{
+    width: 50%;
+    padding-top: 15%;
+}
+.herocontent h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    font-size: 50px;
+    width: 50%;
+    color: greenyellow;
+}
+.herocontent p{
+    padding-left: 50px;
+    font-size: 20px;
+    width: 80%;
+    padding-bottom: 20px;
+    color: rgb(226, 228, 222);
+}
+.registerbtn{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.registerbtn a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 153, 0);
+    padding: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.registerbtn a:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+/* section two ekhan theka start */
+
+.heading-text{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.heading-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    letter-spacing: 1.8;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.heading-text p{
+    color: rgb(236, 226, 226);
+    font-size: 20px;
+    letter-spacing: 1.8;
+    margin: 10px auto;
+    font-style: italic;
+    width:50%;
+}
+.section-two{
+    margin-top: -50px;
+    background-image: url('img/8.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+}
+.sectiontwocontent{
+    width: 78%;
+    margin: 0px auto;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.section2contbox{
+    width: 30%;
+    /* border: 2px solid red; */
+}
+.sec2img img{
+width: 100%;
+}
+.sec2body{
+    margin-top: -6px;
+    background-color: gray;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.sec2body h2{
+ color: white;
+ margin: 10px 0px;
+ font-size: 30px;
+ font-family: 'Times New Roman', Times, serif;
+}
+.sec2body p{
+ color: white;
+ margin: 10px 0px;
+ font-style: italic;
+}
+
+/* /section three  ekhan theka start */
+.section-three{
+    margin-top: 0px;
+    background-image: url('img/4.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 90px;
+}
+.sectionthreecontent{
+        width: 78%;
+        margin: 0px auto;
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center; 
+}
+.section3contbox{
+    padding: 29px 7px;
+    width: 30%;
+    background-color: #ff6309;
+    /* border: 2px solid red; */
+}
+.sec3body{
+    margin-top: 16px;
+}
+.sec3body h2{
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 7px;
+}
+.sec3body p{
+    color: rgb(236, 228, 228);
+    font-style: italic;
+    margin-bottom: 18px;
+}
+.sec3body button{
+    color: rgb(236, 228, 228);
+    font-style: italic;
+    background-color: rgb(29, 27, 27);
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+.sec3body button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/* /sectionfour start hare */
+
+.section-four{
+    /* margin-top: 0px; */
+    background-image: url('img/8.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+}
+.section4content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+
+}
+.section4content1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: -27px auto;
+
+}
+.leftarea{
+    width: 50%;
+}
+.leftarea img{
+    width: 100%;
+}
+.rightarea{
+    width: 40%;
+    margin: 0px auto;
+}
+.rightarea h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 17px;
+}
+.rightarea p{
+    font-size: 20px;
+    color: rgb(235, 224, 224);
+    padding-bottom: 17px;
+    font-style: italic;
+}
+.button {
+    
+    padding: 34px 0px;
+}
+.button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 14px 19px;
+    border: none;
+}
+.button a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/* /section five ekhan thka start */
+.section-five{
+    padding: 30px 10px;
+    background-color: rgb(32, 32, 32);
+}
+.section5content{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.box1 h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box1 p{
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+text-transform: capitalize;
+}
+
+/* /section six ekhan theka start */
+
+.section-six{
+    /* margin-top: 0px; */
+    background-image: url('img/7.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-top: 150px;
+    padding-bottom: 160px;
+}
+
+
+/* /section seven start hare */
+.section-seven{
+    /* margin-top: 0px; */
+    background-image: url('img/8.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.subscribebtn{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+}
+.subscribebtn input{
+    padding: 5px;
+    height: 40px;
+    width: 80%;
+    text-transform: uppercase;
+    border: none;
+}
+.subscribebtn button{
+    padding: 20px;
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: gray;
+}
+.subscribebtn button:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+/* footer arera start hare */
+.footerarea{
+    background-color: rgb(46, 46, 46);
+    padding: 40px 10px;
+}
+.footerareabox{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+.company{
+    width: 34%;
+    margin-top: 60px;
+    height: 260px;
+}
+.company a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.company p{
+    margin-top: 18px;
+    color: rgb(224, 224, 224);
+   font-style: italic;
+}
+.scicon{
+    margin-top: 19px;
+}
+.scicon img{
+    margin: 0px 15px 0px 0px;
+}
+
+.fbox1
+{
+    margin-top: 60px;
+    padding: 0px 30px;
+    width: 16%;
+    height: 260px;
+}
+.fbox1 h4{
+color: white;
+font-weight: bold;
+font-size: 23px;
+}
+.fbox1 li{
+font-weight: bold;
+list-style: none;
+font-size: 16px;
+padding: 10px 0px;
+}
+.fbox1 li a{
+text-decoration: none;
+color: rgb(232, 255, 255);
+text-transform: capitalize;
+font-style: italic;
+cursor: pointer;
+}
+.fbox1 li a:hover{
+color: greenyellow
+}
+.copy{
+    padding: 10px;
+    text-align: center;
+    background-color: greenyellow;
+}
+.copy p{
+   text-transform: capitalize;
+   font-weight: bold;
+   color: #05001f;
+}
+.copy span{
+   text-transform: capitalize;
+   font-weight: bold;
+   color: #2400d8;
+}
